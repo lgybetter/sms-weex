@@ -1,10 +1,10 @@
 <template>
   <div class="navigator">
     <div @click="home">
-      <image src="../assets/images/setting.png"></image>
+      <text>test</text>
     </div>
     <div @click="setting">
-      <image src="../assets/images/setting.png"></image>
+      <text>test</text>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
     home () {
       this.$router.push('/auth')
     },
-    exit () {
+    setting () {
     }
   }
 }
